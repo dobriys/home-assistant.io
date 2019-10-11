@@ -8,7 +8,7 @@ ha_category:
 ha_release: "0.100"
 ---
 
-The `yandex_tranport` sensor platform uses [Yandex Maps](https://maps.yandex.ru/) it will give you the time until the next departure time from a bus/tramway/etc stop.
+The `yandex_transport` sensor platform uses [Yandex Maps](https://maps.yandex.ru/) it will give you the time until the next departure time from a bus/tramway/etc stop.
 
 The [Yandex Maps](https://maps.yandex.ru/) website can help to determine the id of your bus stop. You can select a bus stop by clicking on the map, and look to the URL:
 
@@ -25,7 +25,7 @@ To activate Yandex Transport, add the following lines to your `configuration.yam
 ```yaml
 # Example configuration.yaml entry
 sensor:
-  - platform: yandex_tranport
+  - platform: yandex_transport
     stop_id: YOUR_STOP_ID
 ```
 
